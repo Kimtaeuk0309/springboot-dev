@@ -12,3 +12,4 @@ public class springbootdevApp {
         SpringApplication.run(springbootdevApp.class, args);
     }
 }
+
