@@ -21,7 +21,17 @@ spring:
             scope:
               - email
               - profile
+oauth:
+  kakao:
+    client-id: 91851f39cc5872d756945f64a0182ef0
+    url:
+      auth: https://kauth.kakao.com
+      api: https://kapi.kakao.com
+    scope:
+      - profile_nickname
+      - profile_image
+
 
 jwt:
-  issuer: a193344@gmail.com
-  secret_key: test.secret
+  issuer: 193344@naver.com
+  secret_key: Z29nby10bS1zZXJ2ZXItZGxyamVvYW9yb3JodG9kZ290c3Atam9vbmdhbmduaW0teWVvbHNpbWhpaGFsZ2VveW8K
